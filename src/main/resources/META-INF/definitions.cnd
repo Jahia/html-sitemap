@@ -1,0 +1,9 @@
+<jcnt = 'http://www.jahiacommunity.org/jahia/nt/1.0'>
+<jcmix = 'http://www.jahiacommunity.org/jahia/mix/1.0'>
+
+[jcnt:sitemap] > jnt:content, jmix:siteComponent
+ - base (weakreference)
+
+[jcmix:sitemap] mixin
+ extends = jnt:content, jnt:page
+ itemtype = options
